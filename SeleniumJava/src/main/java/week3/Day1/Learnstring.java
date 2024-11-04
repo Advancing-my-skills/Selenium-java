@@ -53,13 +53,13 @@ public class Learnstring {
         boolean contains = n.contains("leaf");
         System.out.println(contains);
         
-         // charAt
+         // charAt  - Index value starts from 0
         
         char charAt = n.charAt(5);
         
         System.out.println(charAt);
         
-        // tocharArray
+        // tocharArray  - convert the string to character array  -- purpose : for iteration
         String value = "Selenium";
         char[] ch = value.toCharArray();
         for(int i=0;i<value.length(); i++){
